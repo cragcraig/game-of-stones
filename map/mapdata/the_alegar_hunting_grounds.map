@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|Outer_Mainelle|||||||1|||#
+resources_grass_hunt_aUL:|resources_grass_hunt_UR:|grass_trees_L:|grass_3trees2:|grass_trees_aU:|forest_large_tree1_aUL:#
+resources_grass_hunt_LL:|resources_grass_hunt_LR:|grass:|grass_hut_left:|grass_trees_L:|forest_large_tree1_LL:#
+grass:|forest_large_tree3_aUL:|forest_large_tree3_UR:|farm_flowers1:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank#
+farm_flowers1:|forest_large_tree3_LL:|forest_large_tree3_LR:|grass:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank#
+grass_hut_right:|grass:|forest_large_tree1_aUL:|forest_large_tree1_UR:|grass_3trees:|grass_trees_aU:#
+forest_large_tree1_UR:|grass_rock:|forest_large_tree1_LL:|forest_large_tree1_LR:|grass_3trees2:|grass_trees_L:
+"; 
+?>

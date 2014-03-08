@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+9|6|The_Blight|||The_Jaramide_Forest|Allorallen|Iman|Hai_Caemlyn|3|||3#
+forest_two_L:|farm_small_horz_farm3:|building_grass_armory_aUL:|building_grass_armory_UR:|forest_large_tree2_LL:|forest_large_tree2_LR:|farm_small_horz_farm2:|forest_two_L:|forest_two_aU:#
+building_grass_market_aUL:Marketplace|building_grass_market_UR:Marketplace|building_grass_armory_LL:|building_grass_armory_LR:|grass:|grass_hut_left:|building_grass_stable_aUL:Stable|building_grass_stable_UR:Stable|forest_two_L:#
+building_grass_market_LL:Marketplace|building_grass_market_LR:Marketplace|grass:|grass:|grass:|grass:|building_grass_stable_LL:Stable|building_grass_stable_LR:Stable|forest_large_tree1_aUL:#
+farm_small_vert_farm1:|grass:|grass:|grass:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|grass:|grass:|forest_large_tree1_LL:#
+edge_d_LLWhorizcurve_UR:|building_grass_river_dock3_aUL:Dock|building_grass_river_dock3_UR:Dock|grass:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|grass:|building_grass_blacksmith_aUL:Blacksmith|building_grass_blacksmith_UR:Blacksmith#
+edge_d_LLWhorizcurve_LR:|building_grass_river_dock3_LL:Dock|building_grass_river_dock3_LR:Dock|edge_d_LLWhorizcurve_aUL:|edge_d_LLWhorizcurve_UR:|farm_flowers1:|forest_two_aU:|building_grass_blacksmith_LL:Blacksmith|building_grass_blacksmith_LR:Blacksmith
+"; 
+?>

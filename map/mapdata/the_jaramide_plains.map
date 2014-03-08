@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||The_Safer_Crossroads||Outer_Allorallen|||||6||1#
+grass:|grass:|grass_oak3:|grass:|grass:|grass_tree_pine:#
+grass:|grass:|grass:|farm_flowers1:|grass_hut_left:|grass:#
+grass:|farm_large_farm1_aUL:|farm_large_farm1_UR:|grass_oak1:|farm_flowers1:|grass:#
+grass_oak2:|farm_large_farm1_LL:|farm_large_farm1_LR:|farm_large_farm2_aUL:|farm_large_farm2_UR:|grass_oak2:#
+grass:|farm_large_farm3_aUL:|farm_large_farm3_UR:|farm_large_farm2_LL:|farm_large_farm2_LR:|grass:#
+grass:|farm_large_farm3_LL:|farm_large_farm3_LR:|grass:|grass:|grass:
+"; 
+?>

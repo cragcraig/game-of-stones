@@ -1,0 +1,14 @@
+<?php 
+$mapdata="
+9|9|The_Almoren_Mines|The_Essenia_Crossroads||Southern_Tar_Valon|Tar_Valon|Stedding_Shangtai|Tear|3|7||3#
+edge_d_ULLhorizcurve_LL:|edge_d_ULLhorizcurve_LR:|edge_d_ULWcurve_UR:|grass_3trees2:|grass:|forest_two_L:|building_grass_mayor_aUL:|building_grass_mayor_UR:|forest_two_aU:#
+water_basic:|edge_d_ULWcurve_LL:|edge_d_ULWcurve_LR:|grass:|building_grass_market_aUL:Marketplace|building_grass_market_UR:Marketplace|building_grass_mayor_LL:|building_grass_mayor_LR:|forest_two_L:#
+water_basic:|building_grass_river_dock2_aUL:Dock|building_grass_river_dock2_UR:Dock|grass:|building_grass_market_LL:Marketplace|building_grass_market_LR:Marketplace|grass:|building_grass_blacksmith_aUL:Blacksmith|building_grass_blacksmith_UR:Blacksmith#
+water_basic:|building_grass_river_dock2_LL:Dock|building_grass_river_dock2_LR:Dock|forest_large_tree2_aUL:|forest_large_tree2_UR:|grass:|grass_rock3:|building_grass_blacksmith_LL:Blacksmith|building_grass_blacksmith_LR:Blacksmith#
+water_basic:|edge_d_ULWcurve_UR:|grass:|forest_large_tree2_LL:|forest_large_tree2_LR:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|grass:|grass_3treestrunk:#
+edge_d_ULWcurve_LL:|edge_d_ULWcurve_LR:|grass_3trees:|grass:|grass:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|grass:|grass:#
+edge_d_UD_WL:|building_grass_stable_aUL:Stable|building_grass_stable_UR:Stable|grass:|grass_2trees_trunk:|grass:|grass:|grass_2trees3:|forest_large_tree1_aUL:#
+edge_d_ULWcurve_UR:|building_grass_stable_LL:Stable|building_grass_stable_LR:Stable|building_grass_org_aUL:|building_grass_org_UR:|grass:|building_grass_armory_aUL:|building_grass_armory_UR:|forest_large_tree1_LL:#
+edge_d_ULWcurve_LR:|farm_flowers1:|grass_2trees2:|building_grass_org_LL:|building_grass_org_LR:|grass_tree_pine2:|building_grass_armory_LL:|building_grass_armory_LR:|grass:
+"; 
+?>

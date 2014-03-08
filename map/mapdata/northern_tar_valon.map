@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|The_Blasted_Lands|Tar_Valon||||||6|2||#
+forest_UL:|forest_UR:|grass:|grass_2trees:|grass:|grass:#
+forest_ML:|forest_MR:|farm_flowers1:|farm_large_farm3_aUL:|farm_large_farm3_UR:|grass:#
+forest_LL:|grass_tree_pine2:|grass_trees_aU:|farm_large_farm3_LL:|farm_large_farm3_LR:|forest_two_aU:#
+farm_large_farm1_aUL:|farm_large_farm1_UR:|grass_trees_L:|farm_house2:|grass:|forest_two_L:#
+farm_large_farm1_LL:|farm_large_farm1_LR:|grass_tree_pine:|grass:|farm_large_farm3_aUL:|farm_large_farm3_UR:#
+grass_3treestrunk:|grass_trees_aU:|farm_large_farm3_aUL:|farm_large_farm3_UR:|farm_large_farm3_LL:|farm_large_farm3_LR:
+"; 
+?>

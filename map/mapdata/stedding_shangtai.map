@@ -1,0 +1,15 @@
+<?php 
+$mapdata="
+10|10|The_West_Essenia_Mines||The_Waste|The_Essenia_Crossroads|Al-ap-cair-ap-rahienallen|||3||3|8#
+forest_large_tree2_UR:|grass:|grass_rock3:|forest_large_tree2_aUL:|forest_large_tree2_UR:|grass:|grass_cart1:|forest_large_tree1_LL:|forest_large_tree1_LR:|forest_large_tree3_aUL:#
+forest_large_tree2_LR:|stedding_ogier3_aUL:|stedding_ogier3_UR:|forest_large_tree2_LL:|forest_large_tree2_LR:|farm_flowers1:|forest_large_tree2_aUL:|forest_large_tree2_UR:|grass_rock2:|forest_large_tree3_LL:#
+grass_tree_trunks:|stedding_ogier3_LL:|stedding_ogier3_LR:|grass:|farm_flowers1:|stedding_ogier2:|forest_large_tree2_LL:|forest_large_tree2_LR:|grass:|grass:#
+edge_d_LLWbend_aUL:|edge_d_LLWbend_UR:|grass:|grass:|grass:|grass:|grass:|grass:|grass:|grass:#
+water_basic:|edge_d_LLWbend_LR:|grass:|grass:|forest_large_tree1_aUL:|forest_large_tree1_UR:|grass:|grass:|forest_large_tree1_aUL:|forest_large_tree1_UR:#
+water_basic:|building_grass_river_dock2_aUL:Dock|building_grass_river_dock2_UR:Dock|grass:|forest_large_tree1_LL:|forest_large_tree1_LR:|forest_large_tree3_aUL:|forest_large_tree3_UR:|forest_large_tree1_LL:|forest_large_tree1_LR:#
+edge_d_LLLbend_UR:|building_grass_river_dock2_LL:Dock|building_grass_river_dock2_LR:Dock|stedding_ogier1_aUL:|stedding_ogier1_UR:|farm_small_vert_farm1:|forest_large_tree3_LL:|forest_large_tree3_LR:|grass_tree_trunks:|forest_large_tree2_aUL:#
+edge_d_LLLbend_LR:|edge_d_URLcurve_aUL:|farm_flowers1:|stedding_ogier1_LL:|stedding_ogier1_LR:|stedding_ogier3_aUL:|stedding_ogier3_UR:|grass:|grass:|forest_large_tree2_LL:#
+edge_d_URWcurve_aUL:|edge_d_URLcurve_LL:|edge_d_URLcurve_LR:|grass:|farm_small_horz_farm2:|stedding_ogier3_LL:|stedding_ogier3_LR:|grass:|grass:|grass:#
+edge_d_URWcurve_LL:|edge_d_URWcurve_LR:|edge_d_UD_WL:|grass_rock:|grass:|farm_small_horz_farm3:|grass:|forest_large_tree1_aUL:|forest_large_tree1_UR:|forest_large_tree2_aUL:
+"; 
+?>

@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||The_Waste||The_Blasted_Lands|||||13||8#
+waste_basic:|waste_rock1:|waste_basic:|waste_basic:|waste_basic:|waste_basic:#
+waste_puddle2:|waste_basic:|waste_basic:|waste_rock5:|waste_rock2:|waste_basic:#
+waste_basic:|waste_basic:|waste_cracked_earth3:|waste_basic:|waste_basic:|waste_rock4:#
+waste_rock6:|waste_basic:|waste_cracked_earth1_LR:|waste_basic:|waste_basic:|waste_basic:#
+waste_basic:|waste_basic:|waste_puddle1:|waste_basic:|waste_cracked_earth1_aUL:|waste_cracked_earth1_UR:#
+waste_cracked_earth2:|waste_rock2:|waste_basic:|waste_cracked_earth3:|waste_cracked_earth1_LL:|waste_cracked_earth1_LR:
+"; 
+?>

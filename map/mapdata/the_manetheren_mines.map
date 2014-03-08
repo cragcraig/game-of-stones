@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||The_Misty_Mountains|||||||2||#
+grass:|grass_trees_aU:|grass:|grass_rock2:|forest_two_L:|grass:#
+grass_trees_aU:|grass_trees_L:|grass_oak2:|grass_2trees3:|grass:|grass:#
+grass_trees_L:|grass_hut_right:|grass_2trees:|grass:|grass:|grass_oak1:#
+grass:|grass:|resources_grass_mine_aUL:|resources_grass_mine_UR:|grass:|grass_2trees_trunk:#
+grass_2trees2:|grass_rock3:|resources_grass_mine_LL:|resources_grass_mine_LR:|grass_3trees2:|grass_3treestrunk:#
+grass:|grass_oak3:|grass:|grass_3trees:|grass_tree_pine2:|grass:
+"; 
+?>

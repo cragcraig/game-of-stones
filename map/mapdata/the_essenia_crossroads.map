@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|Al-ap-cair-ap-rahienallen|The_Essenia_River_Crossing|Stedding_Shangtai|The_Essenia_Highlands||||7|3|8|3#
+grass:|edge_wooden_bridgeR:|edge_wooden_bridgeL:|grass:|grass:|grass_trees_aU:#
+grass_3trees2:|edge_d_ULLbend_UR:|edge_d_UD_WL:|grass_trees_aU:|grass:|grass_trees_L:#
+edge_d_ULLbend_LL:|edge_d_ULLbend_LR:|edge_d_ULWbend_UR:|grass_trees_L:|grass:|forest_large_tree3_aUL:#
+edge_d_RL_WL:|edge_d_ULWbend_LL:|edge_d_ULWbend_LR:|grass_3trees2:|grass:|forest_large_tree3_LL:#
+grass_rock3:|grass_trees_aU:|grass_2trees3:|grass:|grass_rock2:|forest_large_tree1_aUL:#
+grass_trees_aU:|grass_trees_L:|grass_2trees:|grass:|grass_3treestrunk:|forest_large_tree1_LL:
+"; 
+?>

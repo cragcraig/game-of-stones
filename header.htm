@@ -1,0 +1,224 @@
+<link REL="StyleSheet" TYPE="text/css" HREF="stylea.css">
+<html>
+<head>
+	<STYLE type="text/css" >
+		BODY {margin:0}
+	</STYLE>
+
+<!-- JAVASCRIPTS -->
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+function popUp(URL)
+{
+	day = new Date();
+	id = day.getTime();
+	eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=275,height=375,left = 412,top = 234');");
+}
+
+function setInfo(y)
+{
+	document.getElementById('infoBar').innerHTML="<font class='littletext'><font color='6D7795'><b>"+y+"</b>";
+}
+
+function UpdateTop(message,gold)
+{
+	if (message) setInfo(message);
+	//document.getElementById('goldshow').innerHTML='<font class=foottext><center>Gold: '+gold;
+}
+
+// -------------------------------------- FAKE POPUP BOX ------------------------------------------
+
+function timerTime(wTime)
+{
+	setTimeout('hideMe();',wTime);
+}
+
+isIE=document.all;
+isNN=!document.all&&document.getElementById;
+isN4=document.layers;
+isHot=false;
+
+function hideMe(){
+  var theLayer=document.getElementById("theLayer");
+  if (isIE||isNN) theLayer.style.visibility="hidden";
+  else if (isN4) document.theLayer.visibility="hide";
+}
+
+function showMe(aText,aTime){
+  aText = aText.replace('-ap-',"&#39;").replace('-ap-',"&#39;").replace('-ap-',"&#39;");
+  var theLayer=document.getElementById("theLayer");
+  document.getElementById('popText').innerHTML="<center><font face='Verdana' color='#DDDDDD' style='font-size: 12px;'>"+aText;
+  if (isIE||isNN) theLayer.style.visibility="visible";
+  else if (isN4) document.theLayer.visibility="show";
+  if (aTime!=0) timerTime(1100);
+}
+
+function popConfirm(aText,aLink)
+{
+	var buttons="<form><input class='popper' type='button' onClick='window.location="+'"'+aLink+'"'+";' value='Yes'>&nbsp;&nbsp;&nbsp;<input class='popper' type='button' onClick='hideMe();' value='No'></form>";
+	showMe("<center>"+aText+"<br><br>"+buttons,0);
+}
+
+// FAKE POPUP INFO
+
+function hideMe2() {
+  var theLayer=document.getElementById("theLayer2");
+  if (isIE||isNN) theLayer.style.visibility="hidden";
+  else if (isN4) document.theLayer.visibility="hide";
+}
+
+var infoX = 0;
+var infoY = 0;
+
+function showInfo(aText,x,y,page) {
+  var theLayer=document.getElementById("theLayer2");
+  document.getElementById('popText2').innerHTML="<center><font face='Verdana' color='#DDDDDD' style='font-size: 12px;'>"+aText;
+  document.getElementById('popLocHold').name=page;
+  if (isIE||isNN) theLayer.style.visibility="visible";
+  else if (isN4) document.theLayer.visibility="show";
+  infoX=x;
+  infoY=y;
+  if (page!=-1) {
+  	theLayer.style.top = (y-MapY+100) + 'px';
+  	theLayer.style.left = (x-MapX+100) + 'px';
+  }
+  else {
+  	theLayer.style.top = y + 'px';
+  	theLayer.style.left = x + 'px';
+  }
+}
+
+function updateInfoPos() {
+  var theLayer=document.getElementById("theLayer2");
+  theLayer.style.top = (infoY-MapY+100) + 'px';
+  theLayer.style.left = (infoX-MapX+100) + 'px';
+}
+
+// -------------------------------------- FAKE POPUP END -------------------------------------------->
+</script>
+
+<?php echo $javascripts; ?>
+
+<!-- START HEADER -->
+
+<?php
+$timeback = $time - 30;
+
+$n_title = $_COOKIE['name'];
+$nl_title = $_COOKIE['lastname'];
+$gold=$char['gold'];
+if ($gold >= $_GET[cost]) $gold = $gold - $_GET[cost];
+$gold = number_format( $gold );
+?>
+
+<title>theBreaking | <?php echo "$n_title $nl_title"; ?></title>
+<META name="description" content="A Game of Stones is a free MMORPG based on the Wheel of Time universe. Includes: custom character development, unique weapons, clan warfare, and player versus player combat.">
+<META name="keywords" content="wheel of time, wot, mmorpg, wotmud, wot mud, wheeloftime, randland, free, rpg, sword, battle, gos, game of stones, online game, browser based, browser-based">
+<link rel="icon" href="images/icon.ico" type="image/icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body style="background: black url(images/repeat_top.gif) repeat-x; font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; color: #C6CCD8; margin: 0px; padding: 0px">
+
+
+<!-- BEGIN FLOATING LAYERS CODE //-->
+<div id="theLayer" style="position:absolute; width:250px; left:275px; top:175px; visibility:hidden">
+<table border="0" width="250" bgcolor="#AAAAAA" cellspacing="0" cellpadding="1">
+<tr>
+<td width="100%">
+<table border="0" width="248" bgcolor="#000000" cellspacing="0" cellpadding="1">
+<tr>
+<td width="100%">
+  <table border="0" width="100%" cellspacing="0" cellpadding="2">
+  <tr>
+    <td width="100%" bgcolor="#000000" style="padding: 10px;" colspan="2" valign="middle">
+      <br>
+      <div id="popText" style=>TEXT</div>
+      <br>
+    </td>
+  </tr>
+</table> 
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+
+<!-- BEGIN FLOATING INFO //-->
+
+<div id="theLayer2" style="position:absolute; left:275px; top:175px; visibility:hidden">
+<a onClick='parent.SetPlacePage(this.name);' id="popLocHold" name="none">
+<table border="0" bgcolor="#AAAAAA" cellspacing="0" cellpadding="1">
+<tr>
+<td width="100%">
+<table border="0" bgcolor="#000000" cellspacing="0" cellpadding="1">
+<tr>
+<td width="100%">
+  <table border="0" width="100%" cellspacing="0" cellpadding="2">
+  <tr>
+    <td width="100%" bgcolor="#000000" style="padding: 4px;" colspan="2" valign="middle">
+      <div id="popText2" style="">&nbsp;</div>
+    </td>
+  </tr>
+ </table> 
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</a>
+</div>
+<!-- END FLOATING LAYERS CODE //--> 
+
+<!-- MENU BAR CODE -->
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td rowspan="3"><img src="images/title.gif"></td>
+			<td valign="top" height="20"><img src="images/text_top.gif"></td>
+		</tr>
+		<tr>
+			<td height="36"></td>
+		</tr>
+		<tr>
+			<td>
+				<table border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td><a href="look.php?first=1&time=<?php echo time(); ?>"><img src="images/m0.gif" name="0" border="0" alt="Nearby" onMouseover="this.src='images/m'+this.name+'s.gif'" onMouseout="this.src='images/m'+this.name+'.gif'"></a></td>
+						<td><a href="world.php?time=<?php echo time(); ?>"><img src="images/m1.gif" name="1" border="0" alt="Town" onMouseover="this.src='images/m'+this.name+'s.gif'" onMouseout="this.src='images/m'+this.name+'.gif'"></a></td>
+						<?php
+						if ($char['ismarket']) $mar_show = 'block'; else $mar_show = 'none';
+						?>
+						 <td id='mar_img' style='display: <?php echo $mar_show; ?>;'><a href="market.php?time=<?php echo time(); ?>"><img src="images/m7.gif" name="7" border="0" alt="Market" onMouseover="this.src='images/m'+this.name+'s.gif'" onMouseout="this.src='images/m'+this.name+'.gif'"></a></td>
+						<td><a href="bio.php?time=<?php echo time(); ?>"><img src="images/m2.gif" name="2" border="0" alt="Bio" onMouseover="this.src='images/m'+this.name+'s.gif'" onMouseout="this.src='images/m'+this.name+'.gif'"></a></td>
+						<td><a href="items.php?time=<?php echo time(); ?>"><img src="images/m3.gif" name="3" border="0" alt="Inventory" onMouseover="this.src='images/m'+this.name+'s.gif'" onMouseout="this.src='images/m'+this.name+'.gif'"></a></td>
+						<td><a href="stats.php?time=<?php echo time(); ?>"><img src="images/m4.gif" name="4" border="0" alt="Skills" onMouseover="this.src='images/m'+this.name+'s.gif'" onMouseout="this.src='images/m'+this.name+'.gif'"></a></td>
+						<td><a href="clan.php?time=<?php echo time(); ?>"><img src="images/m6.gif" name="6" border="0" alt="Clan" onMouseover="this.src='images/m'+this.name+'s.gif'" onMouseout="this.src='images/m'+this.name+'.gif'"></a></td>
+						<td width="60">&nbsp;</td>
+						<td><a href="horn.php?time=<?php echo time(); ?>"><img src="images/m8.gif" name="8" border="0" alt="Horn" onMouseover="this.src='images/m'+this.name+'s.gif'" onMouseout="this.src='images/m'+this.name+'.gif'"></a></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="7" valign="top">
+				<table border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="125" height="29">
+							<img src="images/title_bottom.gif" width="125" height="29">
+						</td>
+						<td valign="top" id="infoBar">
+							<font class="littletext"><font color="6D7795"><b><?php if ($message) echo $message; ?></b>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+<p align="left">
+<table border="0" cellspacing="0" cellpadding="5" width="900"><tr><td valign=top>
+
+<!-- PAGE CONTENT -->

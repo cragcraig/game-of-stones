@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|The_Jaramide_Plains||Iman|The_Safer_Coast||||6||4|3#
+forest_UL:|forest_UR:|forest_two_L:|grass_trees_L:|forest_two_L:|forest_large_tree3_aUL:#
+forest_ML:|forest_MR:|forest_two_aU:|grass_3treestrunk:|grass_3trees:|forest_large_tree3_LL:#
+forest_LL:|farm_house1:|forest_two_L:|forest_large_tree1_aUL:|forest_large_tree1_UR:|grass_2trees3:#
+grass_2trees:|farm_small_vert_farm2:|farm_flowers1:|forest_large_tree1_LL:|forest_large_tree1_LR:|forest_large_tree3_aUL:#
+forest_large_tree2_aUL:|forest_large_tree2_UR:|grass_2trees:|grass_trees_aU:|grass_tree_pine:|forest_large_tree3_LL:#
+forest_large_tree2_LL:|forest_large_tree2_LR:|grass_3trees2:|grass_trees_L:|grass_2trees3:|grass_trees_aU:
+"; 
+?>

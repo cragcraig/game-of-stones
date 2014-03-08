@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|The_Essenia_Highlands|||||||1|||#
+forest_UL:|forest_UR:|grass_3trees2:|grass_3trees:|forest_two_L:|grass_3trees2:#
+forest_ML:|forest_MR:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|grass_2trees2:|grass_oak2:#
+forest_LL:|grass_2trees3:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|grass:|grass_2trees3:#
+forest_two_aU:|grass_oak1:|grass_cart1:|resources_grass_cutwood_aUL:|resources_grass_cutwood_UR:|grass:#
+forest_two_L:|grass_3trees2:|grass:|resources_grass_cutwood_LL:|resources_grass_cutwood_LR:|grass:#
+grass_oak3:|grass_3trees:|grass_2trees3:|grass_2trees_trunk:|grass:|grass:
+"; 
+?>

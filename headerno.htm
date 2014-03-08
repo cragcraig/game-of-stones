@@ -1,0 +1,129 @@
+<link REL="StyleSheet" TYPE="text/css" HREF="stylea.css">
+<html>
+<head>
+	<STYLE type="text/css" >
+		BODY {margin:0}
+	</STYLE>
+<title>GoS: theBreaking</title>
+<META name="description" content="A Game of Stones is a free MMORPG based in the Wheel of Time universe. Includes: custom character development, unique weapons, clan warfare, and player versus player combat.">
+<META name="keywords" content="wheel of time, wot, mmorpg, wotmud, wot mud, wheeloftime, randland, free, rpg, sword, battle, gos, game of stones, online game, browser based, browser-based">
+<link rel="icon" href="images/icon.ico" type="image/icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<?php $message = $title; ?>
+
+<body style="background: black url(images/repeat_top.gif) repeat-x; font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; color: #C6CCD8; margin: 0px; padding: 0px">
+
+<!-- MENU BAR CODE -->
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td rowspan="3"><img src="images/title.gif"></td>
+			<td valign="top" height="20"><img src="images/text_top.gif"></td>
+		</tr>
+		<tr>
+			<td height="36"></td>
+		</tr>
+		<tr>
+			<td>
+				<table border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<?php
+						if (!$is_home) {
+						?>
+						<td><a href="index2.php"><img src="images/n0.gif" name="0" border="0" alt="Home" onMouseover="this.src='images/n'+this.name+'s.gif'" onMouseout="this.src='images/n'+this.name+'.gif'"></a></td>
+						<?php
+						}
+						?>
+						<td><a href="create.php"><img src="images/n1.gif" name="1" border="0" alt="Join" onMouseover="this.src='images/n'+this.name+'s.gif'" onMouseout="this.src='images/n'+this.name+'.gif'"></a></td>
+						<td><a href="preview.php"><img src="images/n2.gif" name="2" border="0" alt="Preview" onMouseover="this.src='images/n'+this.name+'s.gif'" onMouseout="this.src='images/n'+this.name+'.gif'"></a></td>
+						<td width='25' ></td>
+						<td><a href="http://z3.invisionfree.com/Game_Of_Stones" target="_blank"><img src="images/n3.gif" name="3" border="0" alt="Forum" onMouseover="this.src='images/n'+this.name+'s.gif'" onMouseout="this.src='images/n'+this.name+'.gif'"></a></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="7" valign="top">
+				<table border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="125" height="29">
+							<img src="images/title_bottom.gif" width="125" height="29">
+						</td>
+						<td valign="top" id="infoBar">
+							<font class="littletext"><font color="6D7795"><b><?php if ($message) echo $message; ?></b>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+<p align="left">
+<table border="0" cellspacing="0" cellpadding="5" width="750"><tr><td valign=top>
+
+<!-- PAGE CONTENT -->
+
+
+<center><font style="font-size: 12px">
+
+<table width="100%" border=0 cellspacing=0 cellpadding=0>
+<tr><td width="125" valign="top">
+
+<br>
+<?php if ($show_login) { ?>
+
+<!-- LOGIN BOX -->
+<p align="left">
+<form action="verify.php" method="post">
+<table cellspacing="0" cellpadding="5" width="125" height="195" style="vertical-align: top">
+<tr><td style="vertical-align: top"><p align="left"><b>
+  <label for="userid"><font class="littletext">First Name</label><br />
+  <input type="text" name="userid" id="userid" class="form" maxlength="10" size="18" />
+
+  </td></tr><tr><td style="vertical-align: top"><p align="left"><b>
+  <label for="lastname"><font class="littletext">House Name</label><br />
+  <input type="text" name="lastname" id="lastname" class="form" maxlength="10" size="18" />
+
+  </td></tr><tr><td style="vertical-align: top"><p align="left"><b>
+  <label for="password"><font class="littletext">Password</label><br />
+  <input type="password" name="password" id="password" class="form" maxlength="10" size="18" /><br><br>
+  <input type="Submit" name="submit" value="Enter World" class="form" />
+</form>
+</td></tr><tr><td style="vertical-align: top"><p align="left"><b>
+<br><br><font style="font-size: 12px">
+</td></tr>
+</table>
+
+<!-- PAYPAL -->
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="urgy@adelphia.net">
+<input type="hidden" name="item_name" value="GoS Fund (A channeler for every $5 donated!)">
+<input type="hidden" name="item_number" value="2">
+<input type="hidden" name="no_shipping" value="2">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="tax" value="0">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="bn" value="PP-DonationsBF">
+&nbsp;&nbsp;&nbsp;<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+<br>
+<?php
+if (!$dont_show_users_online)
+{
+include('admin/connect.php');
+$result = mysql_query("SELECT COUNT(*) FROM Users WHERE lastcheck='".(intval(time()/3600)-1)."' OR  lastcheck='".intval(time()/3600)."'");
+$time_passed = intval((time()-(intval(time()/3600)-1)*3600)/60)-60;
+$users_online = mysql_result($result,0);
+if ($users_online >= 25) echo "<font class='foottext'><center><b>Online in last 1hr ".$time_passed."min</b><br>".$users_online." characters";
+}
+}
+?>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+</td><td valign="top"><font style="font-size: 12px">
+<!-- END LOGIN BOX -->

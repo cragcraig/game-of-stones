@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|Iman|The_Safer_Border|Manetheren|||||3|3|1|#
+forest_two_L:|farm_house1:|grass:|edge_d_ULLcurve_UR:|water_basic:|edge_d_UD_WL:#
+farm_large_farm2_aUL:|farm_large_farm2_UR:|edge_d_ULLcurve_LL:|edge_d_ULLcurve_LR:|water_basic:|edge_d_ULWcurve_UR:#
+farm_large_farm2_LL:|farm_large_farm2_LR:|edge_d_ULLbend_UR:|water_basic:|edge_d_ULWcurve_LL:|edge_d_ULWcurve_LR:#
+edge_d_RL_LW:|edge_d_ULLbend_LL:|edge_d_ULLbend_LR:|water_basic:|edge_d_ULWbend_UR:|forest_large_tree2_aUL:#
+edge_d_LRLbend_aUL:|edge_d_LRLbend_UR:|edge_d_RL_WL:|edge_d_ULWbend_LL:|edge_d_ULWbend_LR:|forest_large_tree2_LL:#
+edge_d_LRLbend_LL:|forest_large_tree1_aUL:|forest_large_tree1_UR:|forest_two_aU:|grass:|grass_oak3:
+"; 
+?>

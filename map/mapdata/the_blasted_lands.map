@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||Northern_Tar_Valon|The_Blight_Border|The_Blight|||||6|8|6#
+blight_dirt1:|blight_dirt:|blight_trees2:|blight_dirt2:|blight_dirt:|blight_dirt:#
+blight_lava2:|blight_trolloc_camp3:|blight_trolloc_camp2:|blight_trolloc_camp3:|blight_bones:|blight_dirt:#
+blight_trees2:|blight_trolloc_camp2:|blight_trolloc_camp1_aUL:|blight_trolloc_camp1_UR:|blight_trolloc_camp3:|blight_lava4:#
+blight_trees3:|blight_bones:|blight_trolloc_camp1_LL:|blight_trolloc_camp1_LR:|blight_trolloc_camp2:|blight_dirt:#
+blight_dirt:|blight_trees4:|blight_trolloc_camp3:|blight_bones:|blight_trees3:|blight_dirt:#
+blight_dirt:|blight_dirt2:|blight_dirt:|blight_lava1:|blight_lava4:|blight_trees2:
+"; 
+?>

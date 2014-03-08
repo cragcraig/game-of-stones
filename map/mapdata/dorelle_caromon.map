@@ -1,0 +1,14 @@
+<?php 
+$mapdata="
+12|9|The_Coastal_Hunting_Grounds||||Barashta|Aren_Mador|Tear|3|||#
+forest_UL:|forest_UR:|building_grass_armory_aUL:|building_grass_armory_UR:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|edge_grass_corner_2:|edge_water_corner_2:|edge_water_corner_4:|edge_grass_corner_4:|building_grass_blacksmith_aUL:Blacksmith|building_grass_blacksmith_UR:Blacksmith#
+forest_ML:|forest_MR:|building_grass_armory_LL:|building_grass_armory_LR:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|edge_grass_waves_water:|building_grass_ocean_dock1_aUL:Dock|building_grass_ocean_dock1_UR:Dock|building_grass_ocean_dock1_UFR:Dock|building_grass_blacksmith_LL:Blacksmith|building_grass_blacksmith_LR:Blacksmith#
+forest_LL:|grass:|grass:|building_grass_stable_aUL:Stable|building_grass_stable_UR:Stable|grass_oak3:|edge_grass_waves_water:|building_grass_ocean_dock1_LL:Dock|building_grass_ocean_dock1_LR:Dock|building_grass_ocean_dock1_LFR:Dock|grass:|forest_large_tree2_aUL:#
+edge_grass_corner_2:|edge_water_down:|edge_grass_corner_1:|building_grass_stable_LL:Stable|building_grass_stable_LR:Stable|edge_grass_corner_2:|edge_water_corner_2:|building_grass_ocean_dock1_FLL:Dock|building_grass_ocean_dock1_FLR:Dock|building_grass_ocean_dock1_FLFR:Dock|grass_oak2:|forest_large_tree2_LL:#
+edge_water_corner_2:|edge_water_corner_4:|edge_grass_corner_4:|grass:|farm_flowers1:|edge_grass_waves_water:|water_shallow:|water_shallow:|edge_water_corner_1:|edge_water_down:|edge_grass_corner_1:|grass:#
+water_shallow:|edge_water_waves_grass:|grass_oak1:|building_grass_market_aUL:Marketplace|building_grass_market_UR:Marketplace|edge_grass_corner_3:|edge_water_up:|edge_water_corner_3:|water_shallow:|water_shallow:|edge_water_corner_1:|edge_water_down:#
+water_shallow:|edge_water_corner_1:|edge_grass_corner_1:|building_grass_market_LL:Marketplace|building_grass_market_LR:Marketplace|building_grass_mayor_aUL:|building_grass_mayor_UR:|edge_grass_corner_3:|edge_water_corner_3:|water_shallow:|water_shallow:|water_shallow:#
+water_shallow:|water_shallow:|edge_water_corner_1:|edge_water_down:|edge_grass_corner_1:|building_grass_mayor_LL:|building_grass_mayor_LR:|grass:|edge_grass_waves_water:|water_shallow:|water_shallow:|water_shallow:#
+water_shallow:|water_shallow:|water_shallow:|water_shallow:|edge_water_corner_1:|edge_water_down:|edge_water_down:|edge_water_down:|edge_water_corner_2:|water_shallow:|water_shallow:|water_shallow:
+"; 
+?>

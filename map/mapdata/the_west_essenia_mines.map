@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||Stedding_Shangtai|||||||3||#
+forest_UL:|forest_UR:|grass:|grass:|forest_two_L:|grass:#
+forest_ML:|forest_MR:|grass:|grass:|grass:|forest_large_tree2_aUL:#
+forest_LL:|resources_grass_mine_aUL:|resources_grass_mine_UR:|grass:|grass:|forest_large_tree2_LL:#
+grass:|resources_grass_mine_LL:|resources_grass_mine_LR:|grass:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank#
+forest_large_tree1_aUL:|forest_large_tree1_UR:|forest_two_aU:|grass:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank#
+forest_large_tree1_LL:|forest_large_tree1_LR:|forest_two_L:|grass_tree_pine:|grass:|grass:
+"; 
+?>

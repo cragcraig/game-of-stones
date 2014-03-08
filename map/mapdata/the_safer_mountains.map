@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|The_Jaramide_Coast|Iman|The_Safer_Mines|||||7|2|1|#
+forest_UL:|forest_UR:|grass_rock:|grass_rock3:|grass_tree_pine:|forest_two_L:#
+forest_ML:|forest_MR:|grass:|farm_house2:|grass:|grass_rock:#
+forest_LL:|grass:|grass:|grass:|grass_rock2:|grass:#
+grass:|grass:|grass:|grass:|grass_tree_pine:|grass_rock3:#
+grass:|grass:|grass:|grass:|grass_hut_left:|grass:#
+grass:|grass:|grass:|forest_two_aU:|grass_rock:|grass_rock2:
+"; 
+?>

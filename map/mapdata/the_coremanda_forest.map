@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||||Hai_Caemlyn|||||||3#
+forest_two_L:|grass:|grass_tree_pine2:|edge_d_UD_LW:|water_basic:|water_basic:#
+building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|grass_2trees3:|edge_d_UD_LW:|water_basic:|water_basic:#
+building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|grass_2trees2:|edge_d_URWcurve_aUL:|water_basic:|water_basic:#
+grass:|forest_two_aU:|grass:|edge_d_URWcurve_LL:|edge_d_URWcurve_LR:|water_basic:#
+grass_trees_aU:|forest_two_L:|resources_grass_cutwood_aUL:|resources_grass_cutwood_UR:|edge_d_UD_LW:|water_basic:#
+grass_trees_L:|grass_2trees_trunk:|resources_grass_cutwood_LL:|resources_grass_cutwood_LR:|edge_d_URWbend_aUL:|water_basic:
+"; 
+?>

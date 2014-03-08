@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||||The_Safer_Mountains|||||||1#
+forest_ML:|forest_large_tree1_aUL:|forest_large_tree1_UR:|grass:|grass_trees_L:|grass:#
+forest_LL:|forest_large_tree1_LL:|forest_large_tree1_LR:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|grass:#
+grass:|grass_3trees:|grass:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|grass:#
+grass_trees_aU:|resources_grass_mine_aUL:|resources_grass_mine_UR:|grass_rock:|grass:|forest_large_tree3_aUL:#
+grass_trees_L:|resources_grass_mine_LL:|resources_grass_mine_LR:|grass:|grass:|forest_large_tree3_LL:#
+grass_tree_pine2:|forest_two_aU:|grass_rock3:|grass:|grass:|grass:
+"; 
+?>

@@ -1,0 +1,14 @@
+<?php 
+$mapdata="
+9|9|The_Safer_Forest||||Allorallen|Mainelle||3|||#
+grass:|forest_two_L:|farm_flowers1:|grass_hut_left:|building_grass_armory_aUL:|building_grass_armory_UR:|farm_small_vert_farm3:|building_grass_blacksmith_aUL:Blacksmith|building_grass_blacksmith_UR:Blacksmith#
+edge_grass_corner_1:|grass:|grass:|grass:|building_grass_armory_LL:|building_grass_armory_LR:|forest_two_aU:|building_grass_blacksmith_LL:Blacksmith|building_grass_blacksmith_LR:Blacksmith#
+edge_water_waves_grass:|building_grass_market_aUL:Marketplace|building_grass_market_UR:Marketplace|farm_large_farm1_aUL:|farm_large_farm1_UR:|farm_small_horz_farm1:|forest_two_L:|grass:|grass_hut_left:#
+edge_water_waves_grass:|building_grass_market_LL:Marketplace|building_grass_market_LR:Marketplace|farm_large_farm1_LL:|farm_large_farm1_LR:|grass_2trees3:|grass:|forest_large_tree1_aUL:|forest_large_tree1_UR:#
+edge_water_corner_1:|edge_water_down:|edge_grass_corner_1:|grass:|building_grass_mayor_aUL:|building_grass_mayor_UR:|grass_3trees:|forest_large_tree1_LL:|forest_large_tree1_LR:#
+water_shallow:|building_grass_ocean_dock1_aUL:Dock|building_grass_ocean_dock1_UR:Dock|building_grass_ocean_dock1_UFR:Dock|building_grass_mayor_LL:|building_grass_mayor_LR:|building_grass_stable_aUL:Stable|building_grass_stable_UR:Stable|grass:#
+water_shallow:|building_grass_ocean_dock1_LL:Dock|building_grass_ocean_dock1_LR:Dock|building_grass_ocean_dock1_LFR:Dock|grass:|grass:|building_grass_stable_LL:Stable|building_grass_stable_LR:Stable|farm_flowers1:#
+water_shallow:|building_grass_ocean_dock1_FLL:Dock|building_grass_ocean_dock1_FLR:Dock|building_grass_ocean_dock1_FLFR:Dock|grass:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|grass_hut_right:|farm_small_horz_farm2:#
+water_shallow:|water_shallow:|edge_water_corner_1:|edge_grass_corner_1:|grass:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|farm_small_vert_farm2:|farm_small_vert_farm1:
+"; 
+?>

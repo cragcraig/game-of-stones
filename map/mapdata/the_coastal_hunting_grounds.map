@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|Aren_Mador|Dorelle_Caromon||||||9|3||#
+forest_UL:|forest_UR:|resources_grass_hunt_aUL:|resources_grass_hunt_UR:|grass_oak3:|grass_oak1:#
+forest_ML:|forest_MR:|resources_grass_hunt_LL:|resources_grass_hunt_LR:|grass:|grass:#
+forest_LL:|grass_2trees:|grass:|grass:|grass_oak2:|edge_grass_corner_2:#
+grass_oak2:|grass_3trees2:|grass:|edge_grass_corner_2:|edge_water_down:|edge_water_corner_2:#
+grass_tree_pine:|grass:|grass:|edge_grass_waves_water:|water_shallow:|water_shallow:#
+grass:|grass_oak1:|edge_grass_corner_2:|edge_water_corner_2:|water_shallow:|water_shallow:
+"; 
+?>

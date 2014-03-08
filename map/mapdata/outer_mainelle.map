@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||The_Alegar_Hunting_Grounds|The_Safer_Border|Mainelle|||||1|5|2#
+grass_oak2:|grass:|farm_large_farm1_aUL:|farm_large_farm1_UR:|grass_trees_L:|grass_3treestrunk:#
+farm_small_horz_farm3:|farm_house1:|farm_large_farm1_LL:|farm_large_farm1_LR:|farm_small_horz_farm2:|grass_oak3:#
+farm_large_farm2_aUL:|farm_large_farm2_UR:|farm_large_farm3_aUL:|farm_large_farm3_UR:|farm_small_horz_farm1:|grass_tree_pine:#
+farm_large_farm2_LL:|farm_large_farm2_LR:|farm_large_farm3_LL:|farm_large_farm3_LR:|farm_house2:|grass_2trees2:#
+farm_small_horz_farm3:|farm_small_horz_farm1:|forest_large_tree1_aUL:|forest_large_tree1_UR:|farm_small_vert_farm3:|farm_small_vert_farm3:#
+farm_small_vert_farm3:|forest_two_aU:|forest_large_tree1_LL:|forest_large_tree1_LR:|grass_2trees_trunk:|grass_3trees2:
+"; 
+?>

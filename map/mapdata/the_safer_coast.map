@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||The_Safer_Forest|The_Safer_Crossroads||||||3|3|#
+water_shallow:|water_shallow:|water_shallow:|water_shallow:|edge_water_waves_grass:|forest_large_tree2_aUL:#
+water_shallow:|water_shallow:|edge_water_corner_4:|edge_water_up:|edge_grass_corner_4:|forest_large_tree2_LL:#
+water_shallow:|water_shallow:|edge_water_waves_grass:|grass:|grass_hut_left:|grass_2trees:#
+water_shallow:|water_shallow:|edge_water_waves_grass:|grass:|forest_large_tree2_aUL:|forest_large_tree2_UR:#
+water_shallow:|edge_water_corner_4:|edge_grass_corner_4:|grass_oak3:|forest_large_tree2_LL:|forest_large_tree2_LR:#
+water_shallow:|edge_water_waves_grass:|grass_hut_right:|grass:|grass_3trees:|grass_oak2:
+"; 
+?>

@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|The_Blight_Border|||Stedding_Shangtai||||13|||3#
+waste_basic:|waste_rock3:|waste_basic:|waste_puddle2:|waste_basic:|waste_basic:#
+waste_basic:|waste_basic:|waste_basic:|waste_basic:|waste_cracked_earth2:|waste_basic:#
+waste_cracked_earth1_aUL:|waste_cracked_earth1_UR:|waste_basic:|waste_basic:|waste_rock5:|waste_puddle2:#
+waste_cracked_earth1_LL:|waste_cracked_earth1_LR:|waste_rock1:|waste_basic:|waste_basic:|waste_basic:#
+waste_basic:|waste_basic:|waste_basic:|waste_basic:|waste_basic:|waste_basic:#
+waste_rock2:|waste_basic:|waste_puddle1:|waste_basic:|waste_rock4:|waste_cracked_earth3:
+"; 
+?>

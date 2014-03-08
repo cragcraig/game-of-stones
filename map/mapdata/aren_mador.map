@@ -1,0 +1,14 @@
+<?php 
+$mapdata="
+8|9|Hai_Caemlyn|The_Coastal_Hunting_Grounds|The_Essenia_Highlands|The_Manetheren_Crossroads|Hai_Caemlyn|Dorelle_Caromon||4|9|2|9#
+grass_trees_L:|grass_trees_aU:|grass_trees_L:|building_grass_inntavern_aUL:Tavern|building_grass_inntavern_UR:Tavern|grass_2trees_trunk:|grass_3treestrunk:|grass_trees_L:#
+grass_trees_aU:|grass_trees_L:|grass_3trees2:|building_grass_inntavern_LL:Tavern|building_grass_inntavern_LR:Tavern|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|grass_2trees:#
+grass_trees_L:|building_grass_stable_aUL:Stable|building_grass_stable_UR:Stable|grass:|grass:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|grass_3treestrunk:#
+edge_d_LLWbend_UR:|building_grass_stable_LL:Stable|building_grass_stable_LR:Stable|grass:|grass_3trees:|grass_3trees2:|building_grass_org_aUL:|building_grass_org_UR:#
+edge_d_LLWbend_LR:|grass_3treestrunk:|grass:|farm_flowers1:|building_grass_blacksmith_aUL:Blacksmith|building_grass_blacksmith_UR:Blacksmith|building_grass_org_LL:|building_grass_org_LR:#
+edge_d_URLcurve_aUL:|grass:|farm_house1:|farm_small_vert_farm1:|building_grass_blacksmith_LL:Blacksmith|building_grass_blacksmith_LR:Blacksmith|grass_3trees2:|grass_2trees:#
+edge_d_URLcurve_LL:|edge_d_URLcurve_LR:|farm_small_horz_farm2:|grass_2trees2:|grass:|grass_3trees:|building_grass_market_aUL:Marketplace|building_grass_market_UR:Marketplace#
+water_basic:|building_grass_river_dock2_aUL:Dock|building_grass_river_dock2_UR:Dock|building_grass_armory_aUL:|building_grass_armory_UR:|grass_2trees2:|building_grass_market_LL:Marketplace|building_grass_market_LR:Marketplace#
+water_basic:|building_grass_river_dock2_LL:Dock|building_grass_river_dock2_LR:Dock|building_grass_armory_LL:|building_grass_armory_LR:|grass:|grass:|grass_2trees:
+"; 
+?>

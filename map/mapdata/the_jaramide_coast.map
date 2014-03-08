@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||The_Safer_Mountains|The_Jaramide_Forest||||||7|4|#
+water_shallow:|water_shallow:|water_shallow:|water_shallow:|edge_water_corner_1:|edge_grass_corner_1:#
+water_shallow:|water_shallow:|water_shallow:|water_shallow:|water_shallow:|edge_water_waves_grass:#
+water_shallow:|water_shallow:|water_shallow:|edge_water_corner_4:|edge_water_up:|edge_grass_corner_4:#
+water_shallow:|water_shallow:|water_shallow:|edge_water_waves_grass:|farm_flowers1:|farm_house2:#
+water_shallow:|water_shallow:|water_shallow:|edge_water_waves_grass:|farm_large_farm1_aUL:|farm_large_farm1_UR:#
+water_shallow:|water_shallow:|water_shallow:|edge_water_waves_grass:|farm_large_farm1_LL:|farm_large_farm1_LR:
+"; 
+?>

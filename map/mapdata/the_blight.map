@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||Deranbar|The_Blasted_Lands||||||3|6|#
+blight_dirt:|blight_lava1:|blight_dirt:|blight_dirt:|blight_dirt:|blight_trees3:#
+blight_dirt1:|blight_lava3:|blight_dirt:|blight_dirt:|blight_lava_bones:|blight_dirt:#
+blight_lava2:|blight_dirt:|blight_dirt:|blight_trolloc_camp2:|blight_trees2:|blight_lava4:#
+blight_dirt:|blight_dirt:|blight_trolloc_camp3:|blight_bones:|blight_trees4:|blight_dirt:#
+blight_trees2:|blight_dirt:|blight_dirt:|blight_lava1:|blight_dirt2:|blight_lava2:#
+blight_trees3:|blight_trees4:|blight_dirt:|blight_trees2:|blight_trees:|blight_dirt:
+"; 
+?>

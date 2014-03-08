@@ -1,0 +1,17 @@
+<?php 
+$mapdata="
+12|12|Northern_Tar_Valon|Southern_Tar_Valon|||Al-ap-cair-ap-rahienallen|Tear||2|3||#
+forest_large_tree3_LR:|forest_two_L:|edge_d_ULLcurve_UR:|water_basic:|edge_d_UD_WL:|building_grass_inntavern_aUL:Tavern|building_grass_inntavern_UR:Tavern|grass_2trees3:|grass_tree_pine:|edge_d_UD_LW:|edge_d_URLcurve_aUL:|forest_large_tree2_LL:#
+grass_trees_aU:|edge_d_ULLcurve_LL:|edge_d_ULLcurve_LR:|water_basic:|edge_d_ULWcurve_UR:|building_grass_inntavern_LL:Tavern|building_grass_inntavern_LR:Tavern|building_grass_blacksmith_aUL:Blacksmith|building_grass_blacksmith_UR:Blacksmith|edge_d_URWcurve_aUL:|edge_d_URLcurve_LL:|edge_d_URLcurve_LR:#
+grass_trees_L:|edge_d_UD_LW:|water_basic:|edge_d_ULWcurve_LL:|edge_d_ULWcurve_LR:|grass_2trees2:|grass_3treestrunk:|building_grass_blacksmith_LL:Blacksmith|building_grass_blacksmith_LR:Blacksmith|edge_d_URWcurve_LL:|edge_d_URWcurve_LR:|edge_d_UD_WL:#
+grass:|edge_d_UD_LW:|water_basic:|edge_d_UD_WL:|building_grass_armory_aUL:|building_grass_armory_UR:|grass:|grass_trees_aU:|grass_oak1:|grass_2trees_trunk:|edge_d_UD_LW:|edge_d_URLcurve_aUL:#
+forest_large_tree2_UR:|edge_d_URWcurve_aUL:|water_basic:|edge_d_URLcurve_aUL:|building_grass_armory_LL:|building_grass_armory_LR:|grass:|grass_trees_L:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|edge_d_UD_LW:|edge_d_URLcurve_LL:#
+forest_large_tree2_LR:|edge_d_URWcurve_LL:|edge_d_URWcurve_LR:|edge_d_URLcurve_LL:|edge_d_URLcurve_LR:|grass:|grass:|grass:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|edge_d_ULLcurve_UR:|water_basic:#
+grass:|grass_oak1:|edge_d_URWcurve_aUL:|water_basic:|edge_d_UD_WL:|building_grass_org_aUL:|building_grass_org_UR:|grass:|grass:|edge_d_ULLcurve_LL:|edge_d_ULLcurve_LR:|water_basic:#
+grass_oak2:|grass_trees_aU:|edge_d_URWcurve_LL:|edge_d_URWcurve_LR:|edge_d_UD_WL:|building_grass_org_LL:|building_grass_org_LR:|grass_3trees:|building_grass_river_dock1_aUL:Dock|building_grass_river_dock1_UR:Dock|water_basic:|edge_d_ULWcurve_LL:#
+forest_two_aU:|grass_trees_L:|grass_tree_pine2:|edge_d_UD_LW:|edge_d_URLcurve_aUL:|grass_oak1:|building_grass_market_aUL:Marketplace|building_grass_market_UR:Marketplace|building_grass_river_dock1_LL:Dock|building_grass_river_dock1_LR:Dock|water_basic:|edge_d_UD_WL:#
+forest_two_L:|building_grass_stable_aUL:Stable|building_grass_stable_UR:Stable|edge_d_UD_LW:|edge_d_URLcurve_LL:|edge_d_URLcurve_LR:|building_grass_market_LL:Marketplace|building_grass_market_LR:Marketplace|grass_tree_pine2:|edge_d_ULLcurve_UR:|water_basic:|edge_d_ULWcurve_UR:#
+grass_tree_pine:|building_grass_stable_LL:Stable|building_grass_stable_LR:Stable|edge_d_URWcurve_aUL:|water_basic:|edge_d_URLcurve_aUL:|grass:|grass_2trees:|edge_d_ULLcurve_LL:|edge_d_ULLcurve_LR:|edge_d_ULWcurve_LL:|edge_d_ULWcurve_LR:#
+forest_large_tree1_aUL:|forest_large_tree1_UR:|grass:|edge_d_URWcurve_LL:|edge_d_URWcurve_LR:|edge_d_URLcurve_LL:|edge_d_URLcurve_LR:|grass_oak3:|edge_d_ULLbend_UR:|water_basic:|edge_d_ULWcurve_UR:|forest_large_tree2_aUL:
+"; 
+?>

@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|The_West_Jaramide_Forest||The_Jaramide_Plains|Allorallen||||1||1|2#
+farm_large_farm1_aUL:|farm_large_farm1_UR:|farm_house2:|forest_two_L:|forest_large_tree1_aUL:|forest_large_tree1_UR:#
+farm_large_farm1_LL:|farm_large_farm1_LR:|grass:|grass:|forest_large_tree1_LL:|forest_large_tree1_LR:#
+grass_3trees:|grass:|grass_cart1:|edge_d_ULLhorizcurve_UR:|edge_d_LLWhorizcurve_aUL:|edge_d_LLWhorizcurve_UR:#
+edge_d_RL_LW:|edge_d_RL_LW:|edge_d_ULLhorizcurve_LL:|edge_d_ULLhorizcurve_LR:|water_basic:|edge_d_LLWhorizcurve_LR:#
+edge_d_LLLhorizcurve_aUL:|edge_d_LLLhorizcurve_UR:|water_basic:|edge_d_ULWhorizcurve_UR:|edge_d_LLLhorizcurve_aUL:|edge_d_LLLhorizcurve_UR:#
+forest_two_aU:|edge_d_LLLhorizcurve_LR:|edge_d_ULWhorizcurve_LL:|edge_d_ULWhorizcurve_LR:|grass_3trees2:|edge_d_LLLhorizcurve_LR:
+"; 
+?>

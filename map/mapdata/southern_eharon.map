@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|The_Manetheren_Crossroads|Barashta|The_Eharon_Hunting_Grounds||Eastport|||8|2|1|#
+edge_d_RL_WL:|edge_d_LLLbend_aUL:|edge_d_LLLbend_UR:|edge_d_URLcurve_aUL:|grass:|grass_trees_aU:#
+grass_trees_aU:|grass:|edge_d_LLLbend_LR:|edge_d_URLcurve_LL:|edge_d_URLcurve_LR:|grass_trees_L:#
+grass_trees_L:|grass_2trees3:|edge_d_UD_LW:|water_basic:|edge_d_UD_WL:|forest_large_tree1_aUL:#
+grass:|grass:|edge_d_UD_LW:|water_basic:|edge_d_UD_WL:|forest_large_tree1_LL:#
+grass:|grass_hut_right:|edge_d_UD_LW:|water_basic:|edge_d_UD_WL:|grass:#
+grass_2trees2:|grass:|edge_d_ULLcurve_UR:|water_basic:|edge_d_UD_WL:|grass:
+"; 
+?>

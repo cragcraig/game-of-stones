@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|The_Manetheren_Mines|||Manetheren||||2|||1#
+water_basic:|water_basic:|edge_d_ULWcurve_UR:|grass_rock2:|forest_two_L:|grass:#
+water_basic:|edge_d_ULWcurve_LL:|edge_d_ULWcurve_LR:|grass_2trees3:|grass:|forest_two_aU:#
+water_basic:|edge_d_ULWbend_UR:|grass_2trees:|grass:|grass_rock:|forest_two_L:#
+edge_d_ULWbend_LL:|edge_d_ULWbend_LR:|grass:|grass:|grass_hut_left:|grass_tree_pine:#
+grass_2trees2:|grass_rock3:|grass_tree_pine2:|grass:|grass_3trees2:|grass_3treestrunk:#
+grass:|grass:|grass:|grass_3trees:|grass_tree_pine2:|grass_rock2:
+"; 
+?>

@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|||Deranbar|The_Jaramide_Coast||||||3|4#
+forest_UL:|forest_UR:|grass_3treestrunk:|resources_grass_cutwood_aUL:|resources_grass_cutwood_UR:|grass_trees_aU:#
+forest_ML:|forest_MR:|grass_tree_pine:|resources_grass_cutwood_LL:|resources_grass_cutwood_LR:|grass_trees_L:#
+forest_LL:|grass:|grass:|grass_3trees:|grass:|grass_3treestrunk:#
+grass:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|grass:|grass:|grass_2trees2:#
+grass:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|grass:|grass:|grass:#
+grass:|grass:|grass_2trees_trunk:|grass_2trees:|grass:|grass:
+"; 
+?>

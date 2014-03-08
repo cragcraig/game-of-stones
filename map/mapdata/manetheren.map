@@ -1,0 +1,17 @@
+<?php 
+$mapdata="
+12|12|||The_Misty_Mountains|The_Manetheren_Border|Mainelle|||||1|1#
+forest_UL:|forest_UR:|building_grass_blacksmith_aUL:Blacksmith|building_grass_blacksmith_UR:Blacksmith|grass_trees_aU:|grass_3trees2:|grass_trees_aU:|grass_2trees3:|grass_trees_aU:|edge_d_LRWbend_aUL:|edge_d_LRWbend_UR:|edge_d_RL_LW:#
+forest_ML:|forest_MR:|building_grass_blacksmith_LL:Blacksmith|building_grass_blacksmith_LR:Blacksmith|grass_trees_L:|grass_2trees2:|grass_trees_L:|grass:|grass_trees_L:|edge_d_LRWbend_LL:|edge_d_LRLbend_aUL:|edge_d_LRLbend_UR:#
+forest_LL:|grass:|grass_2trees_trunk:|grass_3treestrunk:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|grass_trees_aU:|grass_2trees:|grass:|edge_d_UD_LW:|edge_d_LRLbend_LL:|forest_large_tree3_aUL:#
+grass_hut_right:|grass:|grass:|grass:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|grass_trees_L:|grass_3trees2:|grass_2trees3:|edge_d_UD_LW:|edge_d_URLcurve_aUL:|forest_large_tree3_LL:#
+forest_two_aU:|grass_3treestrunk:|building_grass_market_aUL:Marketplace|building_grass_market_UR:Marketplace|grass:|building_grass_armory_aUL:|building_grass_armory_UR:|building_grass_org_aUL:|building_grass_org_UR:|edge_d_URWcurve_aUL:|edge_d_URLcurve_LL:|edge_d_URLcurve_LR:#
+forest_two_L:|grass_trees_aU:|building_grass_market_LL:Marketplace|building_grass_market_LR:Marketplace|grass:|building_grass_armory_LL:|building_grass_armory_LR:|building_grass_org_LL:|building_grass_org_LR:|edge_d_URWcurve_LL:|edge_d_URWcurve_LR:|edge_d_UD_WL:#
+grass_trees_aU:|grass_trees_L:|grass_2trees:|grass:|grass:|grass_3trees2:|grass_2trees:|farm_small_horz_farm2:|grass_3trees:|grass:|edge_wooden_bridgeR:|edge_wooden_bridgeL:#
+grass_trees_L:|grass_3trees2:|building_grass_stable_aUL:Stable|building_grass_stable_UR:Stable|building_grass_inntavern_aUL:Tavern|building_grass_inntavern_UR:Tavern|grass_trees_aU:|grass:|grass:|grass:|edge_d_UD_LW:|edge_d_UD_WL:#
+grass_2trees:|grass_rock:|building_grass_stable_LL:Stable|building_grass_stable_LR:Stable|building_grass_inntavern_LL:Tavern|building_grass_inntavern_LR:Tavern|grass_trees_L:|building_grass_river_dock3_aUL:Dock|building_grass_river_dock3_UR:Dock|farm_small_vert_farm1:|edge_d_ULLbend_UR:|edge_d_UD_WL:#
+grass_3trees2:|grass_2trees:|grass:|grass_2trees_trunk:|grass_cart1:|grass_3treestrunk:|edge_d_ULLhorizcurve_UR:|building_grass_river_dock3_LL:Dock|building_grass_river_dock3_LR:Dock|edge_d_ULLbend_LL:|edge_d_ULLbend_LR:|edge_d_UD_WL:#
+edge_d_LRWbend_aUL:|edge_d_LRWbend_UR:|edge_d_RL_LW:|edge_d_RL_LW:|edge_d_RL_LW:|edge_d_ULLhorizcurve_LL:|edge_d_ULLhorizcurve_LR:|water_basic:|water_basic:|water_basic:|water_basic:|edge_d_ULWbend_UR:#
+edge_d_LRWbend_LL:|water_basic:|water_basic:|water_basic:|water_basic:|water_basic:|water_basic:|water_basic:|edge_d_LRLbend_aUL:|edge_d_LRLbend_UR:|edge_d_ULWbend_LL:|edge_d_ULWbend_LR:
+"; 
+?>

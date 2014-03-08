@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|The_Safer_Coast|Miereallen||||||3|3||#
+edge_water_corner_4:|edge_grass_corner_4:|grass:|grass_trees_aU:|resources_grass_cutwood_aUL:|resources_grass_cutwood_UR:#
+edge_water_waves_grass:|grass_oak1:|grass:|grass_trees_L:|resources_grass_cutwood_LL:|resources_grass_cutwood_LR:#
+edge_water_waves_grass:|grass_2trees3:|grass_rock3:|grass_oak3:|grass_2trees_trunk:|grass_tree_trunks:#
+edge_grass_corner_4:|grass:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|grass_oak1:|grass_2trees3:#
+grass:|grass:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|grass_tree_pine2:|grass:#
+grass:|grass_oak2:|grass:|grass_2trees3:|grass_3trees:|grass:
+"; 
+?>

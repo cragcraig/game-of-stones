@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|The_Manetheren_Border||Shanaine|Outer_Mainelle||||3||3|5#
+grass_oak1:|grass:|farm_large_farm3_aUL:|farm_large_farm3_UR:|farm_house2:|forest_large_tree2_aUL:#
+grass:|grass:|farm_large_farm3_LL:|farm_large_farm3_LR:|farm_small_horz_farm2:|forest_large_tree2_LL:#
+forest_large_tree3_aUL:|forest_large_tree3_UR:|grass:|grass:|farm_small_horz_farm3:|farm_small_vert_farm2:#
+forest_large_tree3_LL:|forest_large_tree3_LR:|farm_flowers1:|farm_small_vert_farm1:|grass_oak3:|grass_rock2:#
+edge_d_RL_LW:|edge_d_LLWhorizcurve_aUL:|edge_d_LLWhorizcurve_UR:|grass_oak1:|grass:|grass_oak2:#
+water_basic:|water_basic:|edge_d_LLWhorizcurve_LR:|edge_d_LLWhorizcurve_aUL:|edge_d_LLWhorizcurve_UR:|grass:
+"; 
+?>

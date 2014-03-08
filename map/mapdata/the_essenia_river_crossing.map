@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6|The_Essenia_Crossroads|Tear|The_Essenia_Hunting_Grounds|||||3|2|1|#
+forest_large_tree1_aUL:|forest_large_tree1_UR:|edge_d_ULLcurve_LL:|edge_d_ULLcurve_LR:|edge_d_ULWcurve_UR:|grass:#
+forest_large_tree1_LL:|forest_large_tree1_LR:|edge_d_UD_LW:|edge_d_ULWcurve_LL:|edge_d_ULWcurve_LR:|forest_two_aU:#
+grass_2trees:|grass:|edge_wooden_bridgeR:|edge_wooden_bridgeL:|grass:|forest_two_L:#
+grass:|grass:|edge_d_ULLcurve_UR:|edge_d_UD_WL:|grass:|forest_large_tree2_aUL:#
+grass_trees_aU:|edge_d_ULLcurve_LL:|edge_d_ULLcurve_LR:|edge_d_ULWcurve_UR:|grass:|forest_large_tree2_LL:#
+grass_trees_L:|edge_d_ULLcurve_UR:|edge_d_ULWcurve_LL:|edge_d_ULWcurve_LR:|grass_3trees:|grass_trees_aU:
+"; 
+?>

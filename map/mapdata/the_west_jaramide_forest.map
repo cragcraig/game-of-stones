@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||Outer_Allorallen|||||||1||#
+water_shallow:|edge_water_waves_grass:|grass:|grass_2trees_trunk:|grass:|forest_two_L:#
+water_shallow:|edge_water_waves_grass:|grass:|resources_grass_cutwood_aUL:|resources_grass_cutwood_UR:|grass_3treestrunk:#
+water_shallow:|edge_water_waves_grass:|grass_3trees:|resources_grass_cutwood_LL:|resources_grass_cutwood_LR:|forest_large_tree3_aUL:#
+water_shallow:|edge_water_waves_grass:|grass_oak2:|forest_two_aU:|grass_2trees3:|forest_large_tree3_LL:#
+edge_water_corner_4:|edge_grass_corner_4:|grass_trees_aU:|forest_two_L:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank#
+edge_water_waves_grass:|grass_oak1:|grass_trees_L:|grass_oak1:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank
+"; 
+?>

@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||||The_Essenia_River_Crossing|||||||1#
+forest_UL:|forest_UR:|grass_2trees2:|resources_grass_hunt_aUL:|resources_grass_hunt_UR:|grass_2trees_trunk:#
+forest_ML:|forest_MR:|grass:|resources_grass_hunt_LL:|resources_grass_hunt_LR:|grass:#
+forest_LL:|grass:|forest_large_tree3_aUL:|forest_large_tree3_UR:|grass:|grass:#
+grass:|grass:|forest_large_tree3_LL:|forest_large_tree3_LR:|forest_large_tree2_aUL:|forest_large_tree2_UR:#
+forest_large_tree1_aUL:|forest_large_tree1_UR:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|forest_large_tree2_LL:|forest_large_tree2_LR:#
+forest_large_tree1_LL:|forest_large_tree1_LR:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|grass:|grass_2trees3:
+"; 
+?>

@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||||Southern_Eharon|||||||1#
+water_basic:|edge_d_ULWcurve_UR:|forest_two_L:|grass_trees_aU:|resources_grass_hunt_aUL:|resources_grass_hunt_UR:#
+edge_d_ULWcurve_LL:|edge_d_ULWcurve_LR:|grass:|grass_trees_L:|resources_grass_hunt_LL:|resources_grass_hunt_LR:#
+edge_d_ULWbend_UR:|grass:|grass_oak2:|grass_2trees:|grass_oak1:|grass:#
+edge_d_ULWbend_LR:|grass_3trees:|building_grass_bank_aUL:Bank|building_grass_bank_UR:Bank|grass:|forest_two_aU:#
+grass_oak1:|grass:|building_grass_bank_LL:Bank|building_grass_bank_LR:Bank|grass:|forest_two_L:#
+edge_d_URLcurve_LR:|grass:|grass:|grass_oak3:|forest_large_tree3_aUL:|forest_large_tree3_UR:
+"; 
+?>

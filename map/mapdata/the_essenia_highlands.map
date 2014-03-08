@@ -1,0 +1,11 @@
+<?php 
+$mapdata="
+6|6||The_Essenia_Forest|The_Essenia_Crossroads|Aren_Mador|||||1|3|2#
+grass:|grass:|grass:|farm_house1:|farm_small_horz_farm3:|forest_large_tree2_aUL:#
+farm_small_horz_farm1:|forest_large_tree1_aUL:|forest_large_tree1_UR:|grass:|farm_small_vert_farm1:|forest_large_tree2_LL:#
+farm_small_vert_farm2:|forest_large_tree1_LL:|forest_large_tree1_LR:|grass:|farm_large_farm2_aUL:|farm_large_farm2_UR:#
+forest_large_tree3_aUL:|forest_large_tree3_UR:|farm_large_farm1_aUL:|farm_large_farm1_UR:|farm_large_farm2_LL:|farm_large_farm2_LR:#
+forest_large_tree3_LL:|forest_large_tree3_LR:|farm_large_farm1_LL:|farm_large_farm1_LR:|grass:|grass:#
+grass:|farm_large_farm3_aUL:|farm_large_farm3_UR:|grass:|forest_large_tree3_aUL:|forest_large_tree3_UR:
+"; 
+?>

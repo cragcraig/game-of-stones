@@ -1,0 +1,15 @@
+<?php 
+$mapdata="
+6|6||Hai_Caemlyn|Southern_Tar_Valon||||||3|2|#
+forest_UL:|forest_UR:|edge_d_LRWbend_aUL:|edge_d_LRWbend_UR:|edge_d_LLWhorizcurve_aUL:|edge_d_LLWhorizcurve_UR:#
+forest_ML:|forest_MR:|edge_d_LRWbend_LL:|water_basic:|water_basic:|edge_d_LLWhorizcurve_LR:#
+forest_LL:|grass:|edge_d_URWcurve_aUL:|water_basic:|water_basic:|water_basic:#
+grass_2trees:|grass_trees_aU:|edge_d_URWcurve_LL:|edge_d_URWcurve_LR:|water_basic:|water_basic:#
+grass_3trees:|grass_trees_L:|grass_tree_pine2:|edge_d_URWbend_aUL:|water_basic:|water_basic:
+
+
+
+#
+grass_tree_pine2:|grass_2trees2:|grass:|edge_d_URWbend_LL:|edge_d_URWbend_LR:|edge_d_ULWbend_LL:
+"; 
+?>
